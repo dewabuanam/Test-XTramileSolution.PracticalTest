@@ -1,0 +1,77 @@
+# ASP.NET Core .gitignore with React.js SPA
+
+## Ignore Visual Studio files
+.vs/
+*.user
+*.suo
+*.sln.docstates
+
+## Ignore build artifacts
+bin/
+obj/
+out/
+**/Debug/
+**/Release/
+*.pdb
+*.exe
+*.dll
+*.appx
+*.appxbundle
+*.msix
+*.msixbundle
+*.nupkg
+*.snupkg
+
+## Ignore dependency files
+node_modules/
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+## Ignore frontend build artifacts
+/build/
+/dist/
+
+## Ignore ASP.NET Core user secrets
+**/secrets.json
+
+## Ignore environment-specific files
+.env
+.env.local
+.env.*.local
+
+## Ignore logs and database files
+logs/
+*.log
+*.bak
+*.db
+*.sqlite
+
+## Ignore temporary files
+*.swp
+*.swo
+*.tmp
+
+## Ignore coverage reports
+coverage/
+*.lcov
+
+## Ignore IDE-specific files
+.idea/
+*.iml
+
+## Ignore published files
+publish/
+wwwroot/
+wwwroot/build/
+
+## Ignore Docker files
+.dockerignore
+Dockerfile
+**/docker-compose*
+
+## Ignore generated client-side files
+.eslintcache
+.vscode/
+
+# End of .gitignore

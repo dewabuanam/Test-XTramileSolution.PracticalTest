@@ -1,0 +1,67 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{566AA8FE-FAEB-42C7-AE45-ADFE29B30E04}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XTramileSolution.PracticalTest.Repository", "src\XTramileSolution.PracticalTest.Repository\XTramileSolution.PracticalTest.Repository.csproj", "{E35D63F1-15C0-405A-8AFA-11D2418797E5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XTramileSolution.PracticalTest.Service", "src\XTramileSolution.PracticalTest.Service\XTramileSolution.PracticalTest.Service.csproj", "{625C9EBB-9148-42DA-B71B-6ECD6A33B035}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "lib", "lib", "{0812038F-38EF-48EF-811B-C017BC307712}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XTramileSolution.PracticalTest.Api", "src\XTramileSolution.PracticalTest.Api\XTramileSolution.PracticalTest.Api.csproj", "{41CBA323-7FA8-403E-8B71-296848E727FA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{11049954-063C-4428-AC19-3E28A1058BC6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XTramileSolution.PracticalTest.Lib.Sanitizer", "lib\XTramileSolution.PracticalTest.Lib.Sanitizer\XTramileSolution.PracticalTest.Lib.Sanitizer.csproj", "{8FB1095E-CEF6-4348-B7F3-9F8A8D198038}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XTramileSolution.PracticalTest.Api.Tests", "XTramileSolution.PracticalTest.Api.Tests\XTramileSolution.PracticalTest.Api.Tests.csproj", "{F22750D9-9ED5-45DE-9F8F-20ABABF4A98D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XTramileSolution.PracticalTest.Service.Tests", "XTramileSolution.PracticalTest.Service.Tests\XTramileSolution.PracticalTest.Service.Tests.csproj", "{46B6C7B1-13EA-4567-BE37-C74981F8C2AA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XTramileSolution.PracticalTest.Repository.Tests", "XTramileSolution.PracticalTest.Repository.Tests\XTramileSolution.PracticalTest.Repository.Tests.csproj", "{F2EC324A-2563-430B-ABF8-2CD29A124457}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E35D63F1-15C0-405A-8AFA-11D2418797E5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E35D63F1-15C0-405A-8AFA-11D2418797E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E35D63F1-15C0-405A-8AFA-11D2418797E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E35D63F1-15C0-405A-8AFA-11D2418797E5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{625C9EBB-9148-42DA-B71B-6ECD6A33B035}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{625C9EBB-9148-42DA-B71B-6ECD6A33B035}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{625C9EBB-9148-42DA-B71B-6ECD6A33B035}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{625C9EBB-9148-42DA-B71B-6ECD6A33B035}.Release|Any CPU.Build.0 = Release|Any CPU
+		{41CBA323-7FA8-403E-8B71-296848E727FA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{41CBA323-7FA8-403E-8B71-296848E727FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{41CBA323-7FA8-403E-8B71-296848E727FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{41CBA323-7FA8-403E-8B71-296848E727FA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8FB1095E-CEF6-4348-B7F3-9F8A8D198038}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8FB1095E-CEF6-4348-B7F3-9F8A8D198038}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8FB1095E-CEF6-4348-B7F3-9F8A8D198038}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8FB1095E-CEF6-4348-B7F3-9F8A8D198038}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F22750D9-9ED5-45DE-9F8F-20ABABF4A98D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F22750D9-9ED5-45DE-9F8F-20ABABF4A98D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F22750D9-9ED5-45DE-9F8F-20ABABF4A98D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F22750D9-9ED5-45DE-9F8F-20ABABF4A98D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{46B6C7B1-13EA-4567-BE37-C74981F8C2AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{46B6C7B1-13EA-4567-BE37-C74981F8C2AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{46B6C7B1-13EA-4567-BE37-C74981F8C2AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{46B6C7B1-13EA-4567-BE37-C74981F8C2AA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F2EC324A-2563-430B-ABF8-2CD29A124457}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F2EC324A-2563-430B-ABF8-2CD29A124457}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F2EC324A-2563-430B-ABF8-2CD29A124457}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F2EC324A-2563-430B-ABF8-2CD29A124457}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{E35D63F1-15C0-405A-8AFA-11D2418797E5} = {566AA8FE-FAEB-42C7-AE45-ADFE29B30E04}
+		{625C9EBB-9148-42DA-B71B-6ECD6A33B035} = {566AA8FE-FAEB-42C7-AE45-ADFE29B30E04}
+		{41CBA323-7FA8-403E-8B71-296848E727FA} = {566AA8FE-FAEB-42C7-AE45-ADFE29B30E04}
+		{8FB1095E-CEF6-4348-B7F3-9F8A8D198038} = {0812038F-38EF-48EF-811B-C017BC307712}
+		{F22750D9-9ED5-45DE-9F8F-20ABABF4A98D} = {11049954-063C-4428-AC19-3E28A1058BC6}
+		{46B6C7B1-13EA-4567-BE37-C74981F8C2AA} = {11049954-063C-4428-AC19-3E28A1058BC6}
+		{F2EC324A-2563-430B-ABF8-2CD29A124457} = {11049954-063C-4428-AC19-3E28A1058BC6}
+	EndGlobalSection
+EndGlobal
