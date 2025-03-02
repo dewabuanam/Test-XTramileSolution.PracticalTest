@@ -22,6 +22,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XTramileSolution.PracticalT
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XTramileSolution.PracticalTest.Api.IntegrationTests", "XTramileSolution.PracticalTest.Api.IntegrationTests\XTramileSolution.PracticalTest.Api.IntegrationTests.csproj", "{83381747-C996-46F7-A453-3EA9AA570D6A}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "docs", "docs", "{0306B15C-2C88-4462-B7B2-4BDB95690D59}"
+	ProjectSection(SolutionItems) = preProject
+		..\README.MD = ..\README.MD
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
