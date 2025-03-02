@@ -130,6 +130,9 @@ dotnet test
 
 ---
 
+## **Demo**
+![](Docs/ss.png)
+
 ## **Conclusion**
 This project demonstrates an efficient, well-structured **.NET Core 3.1 MVC/Web API** implementation with **React.js frontend**. It includes **validation, security, monitoring, and performance optimizations** while ensuring maintainability and testability.
 
