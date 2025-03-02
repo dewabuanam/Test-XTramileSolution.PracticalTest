@@ -20,6 +20,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XTramileSolution.PracticalT
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XTramileSolution.PracticalTest.Repository.Tests", "XTramileSolution.PracticalTest.Repository.Tests\XTramileSolution.PracticalTest.Repository.Tests.csproj", "{F2EC324A-2563-430B-ABF8-2CD29A124457}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XTramileSolution.PracticalTest.Api.IntegrationTests", "XTramileSolution.PracticalTest.Api.IntegrationTests\XTramileSolution.PracticalTest.Api.IntegrationTests.csproj", "{83381747-C996-46F7-A453-3EA9AA570D6A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -54,6 +56,10 @@ Global
 		{F2EC324A-2563-430B-ABF8-2CD29A124457}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F2EC324A-2563-430B-ABF8-2CD29A124457}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F2EC324A-2563-430B-ABF8-2CD29A124457}.Release|Any CPU.Build.0 = Release|Any CPU
+		{83381747-C996-46F7-A453-3EA9AA570D6A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{83381747-C996-46F7-A453-3EA9AA570D6A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{83381747-C996-46F7-A453-3EA9AA570D6A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{83381747-C996-46F7-A453-3EA9AA570D6A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{E35D63F1-15C0-405A-8AFA-11D2418797E5} = {566AA8FE-FAEB-42C7-AE45-ADFE29B30E04}
@@ -63,5 +69,6 @@ Global
 		{F22750D9-9ED5-45DE-9F8F-20ABABF4A98D} = {11049954-063C-4428-AC19-3E28A1058BC6}
 		{46B6C7B1-13EA-4567-BE37-C74981F8C2AA} = {11049954-063C-4428-AC19-3E28A1058BC6}
 		{F2EC324A-2563-430B-ABF8-2CD29A124457} = {11049954-063C-4428-AC19-3E28A1058BC6}
+		{83381747-C996-46F7-A453-3EA9AA570D6A} = {11049954-063C-4428-AC19-3E28A1058BC6}
 	EndGlobalSection
 EndGlobal
